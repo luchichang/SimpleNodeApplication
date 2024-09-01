@@ -23,15 +23,16 @@ __Application can be accessed in your <Public/Private IP>:3000__
 hurray 🥳 App Launched Successfully
 
 <a>![image](https://github.com/user-attachments/assets/3bffab0a-51c6-465a-9691-47db2fb6b4da)</a>
-
+---
 ## Steps for Running the application in a Containerised way 
 * set your current working directory inside the app, this can be done by using the **cd** Command
 * Build the Docker image from the docker file or directly pull the image from container Registry
 
        docker build -t node-app-image  .
-  or
-       docker pull dinesht0006/basic-todo-nodejs-app:latest
-* now run the container
-       docker run --name <ContainerName> -p 3000:3000 -itd node-app-image  
+  or <br>
+  
+         docker pull dinesht0006/basic-todo-nodejs-app:latest
+* now run the container <br>
+         docker run --name <ContainerName> -p 3000:3000 -itd node-app-image  
 
 now application is running without installing or manually setting up the environment. yes that's the docker way 😉🆒!!
