@@ -33,6 +33,7 @@ hurray 🥳 App Launched Successfully
   
          docker pull dinesht0006/basic-todo-nodejs-app:latest
 * now run the container <br>
+
          docker run --name <ContainerName> -p 3000:3000 -itd node-app-image  
 
 now application is running without installing or manually setting up the environment. yes that's the docker way 😉🆒!!
