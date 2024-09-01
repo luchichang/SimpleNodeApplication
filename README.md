@@ -7,12 +7,16 @@
 
 * install the Application Dependencies 
      
-     npm install 
+           npm install
+   
   or
-     yarn install --production
+  
+         yarn install --production
 
 * Run the Application Locally
      
-     node ./src/index.js
+        node ./src/index.js
 
+__Application can be accessed in your <Public/Private IP>:3000__
+hurray 🥳 App Launched Successfully
  
